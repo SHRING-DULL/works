@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <div class="myClass"></div>
+    <div id="myId"></div>
+    <p>1,2,3,3,4,4,4</p>
+</head>
+<body>
+    <!-- 1 -->
+    <script>
+        var a = 7;
+        var b = 8;
+        a>b?a=b:b=a-2
+        console.log(a , b)
+        </script>
+    <!-- 2 -->
+    <script>
+    for (var i=0;i<100;i++){
+   
+    if(i % 3 == 0){
+        console.count(i + "<br>");
+    }
+}
+    </script>
+    <!-- 3 -->
+    <script>
+        var a = 567;
+        var b = 789;
+        {
+            var t;
+            t = a;
+            a = b;
+            b = t;
+            console.log(a)
+            console.log(b)
+        }
+    </script>
+    <!-- 4 -->
+    <script>
+        function sumofsquares(){
+            var e = 11;
+            var f = 22;
+            return e * e + f * f;
+
+        }
+        let res = sumofsquares(11, 22)
+        console.log(res)
+    </script>
+    <!-- 5 -->
+    <script>
+        const num = [['a', 0 ], ['b', 3 ], ['c', 6 ], ['d', 9 ]]
+              list = [];
+              var numbers = new Array()
+              numbers[0] = ['b', 3 ];
+              numbers[1] = ['c', 6 ];
+              numbers[2] = ['d', 9 ];
+            
+              
+              
+            console.log(numbers)
+    </script>
+    <!-- 6 -->
+    
+   <script>
+    var s = $('.Myclass');
+    function $(){
+        return document.getElementsByClassName('myClass');
+    }
+    console.log(s)</script>
+
+    <script>
+    var v = $('#myId');
+    function $(){
+        return document.getElementById('myId');
+    }
+
+    console.log(v)
+    </script>
+    <script>
+    var r = $('p');
+    function $(){
+        return document.getElementsByTagName('p');
+    }
+    console.log(r)
+
+    </script>
+
+
+    <!-- 7 -->
+    <script>
+    var arr = [1 , 1 , 1 , 2 , 2 , 3 , 4 , 4 , 5 , 5 , 5 ];
+    var newArr = [];
+    for (var i = 0; i < arr.length; i++){
+        if (newArr.indexOf(arr[i]) === -1) {
+            newArr.push(arr[i])
+        }
+    }
+
+    console.log(newArr)
+    </script> 
+    <!-- 8 -->
+    <script>
+    let arr2 = [5, 3 , 8 , 1];
+    // let filtered = filterRange(arr2 , 1 , 4);
+    var newArr2 = [1 , 4];
+    var filterRange = arr2.filter(function(x){
+        return x < 4;
+               x > 1;
+    })
+    
+    
+    
+    console.log(filterRange)
+    </script>
+    <!-- 9 -->
+    <script>
+    let john = { name: "John", surname: "Smith", id: 1 };
+    let pete = { name: "Pete", surname: "Hunt", id: 2 };
+    let mary = { name: "Mary", surname: "Key", id: 3 };
+    
+    let users = [ join, pete, mary ];
+    let usersMapped = []
+    
+    </script>
+</body>
+</html>
